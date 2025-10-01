@@ -1,2 +1,15 @@
 @import "tailwindcss";
 
+
+
+.grid-child{
+    @apply grid grid-cols-1 md:grid-cols-9 lg:grid-cols-4 gap-5;
+}
+
+
+
+.cirkul{
+    @apply w-24 h-24 object-cover rounded-full border-2 border-teal-400 mb-4 sm:mb-0
+}
+
+
